@@ -5,10 +5,10 @@
 
 Navigate to the `backend` directory:
 
-   `cd backend'
+   `cd backend`
 
-   'npm install'
+   `npm install`
 
-   'npm start' - starts the app normally
+   `npm start` - starts the app normally
 
-   'node index.js' - alternative command to start backend
+   `node index.js` - alternative command to start backend
