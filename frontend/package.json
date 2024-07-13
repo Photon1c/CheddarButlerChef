@@ -1,0 +1,47 @@
+{
+  "name": "cheddarbutlerchef",
+  "version": "1.0.0",
+  "description": "An app to help chefs with recipes given input ingredients.",
+  "main": "index.js",
+  "scripts": {
+	"start": "react-scripts start --host 0.0.0.0",  
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start-backend": "node ../backend/index.js",
+    "start-frontend": "react-scripts start",
+    "start-all": "concurrently \"npm run start-backend\" \"npm run start-frontend\""
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^4.2.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "keywords": [
+    "cooking"
+  ],
+  "author": "Leslie Cuadra Palacios",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
