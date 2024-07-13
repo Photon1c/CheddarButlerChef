@@ -3,7 +3,7 @@
 
 ### Installation
 
-Navigate to the `backend` directory:
+Navigate to the `frontend` directory:
 
    `cd frontend`
 
