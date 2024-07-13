@@ -3,13 +3,12 @@
 
 ### Installation
 
-1. Navigate to the `backend` directory:
+Navigate to the `backend` directory:
 
-   ```bash
-   cd backend
+   `cd backend'
 
-   npm install
+   'npm install'
 
-   npm start
+   'npm start' - starts the app normally
 
-   ''
+   'node index.js' - alternative command to start backend

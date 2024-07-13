@@ -1,16 +1,20 @@
-# Frontend
 
-## Installation
+## Frontend
 
-1. Navigate to the `frontend` directory:
+### Installation
 
-   ```bash
-   cd frontend
+Navigate to the `backend` directory:
 
-   cd install
+   `cd frontend'
 
-   npm start
+   'npm install'
+  
+   Then start app using either one of these commands:
 
-   '''
+   'npm start' - starts the app normally
 
+   'npm run start-legacy' - starts the app in legacy mode
+ 
+   'npm run backend' - command to start the backend
 
+   'npm run start-all' - command to start backend and frontend
