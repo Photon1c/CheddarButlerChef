@@ -15,6 +15,6 @@ Navigate to the `frontend` directory:
 
    `npm run start-legacy` - starts the app in legacy mode
  
-   `npm run backend` - command to start the backend
+   `npm run start-backend` - command to start the backend
 
    `npm run start-all` - command to start backend and frontend
