@@ -1,25 +1,35 @@
-<<<<<<< HEAD
+# Secrets
 .env
+*.env
+**/.env
+server.key
+server.cert
+*.key
+*.cert
+*.pem
+
+# Dependencies
+node_modules
 frontend/node_modules
 backend/node_modules
-mobile
-=======
-# Build and Release Folders
+
+# Build artifacts
+frontend/build/
 bin-debug/
 bin-release/
 [Oo]bj/
 [Bb]in/
 
-# Other files and folders
+# Mobile
+mobile
+
+# IDE / OS
 .settings/
+.DS_Store
+__pycache__/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# SSL / openssl config
+openssl.cnf
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
->>>>>>> origin/main
+# Temp images
+a.png

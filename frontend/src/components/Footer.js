@@ -1,9 +1,9 @@
 import React from 'react';
 
-function Footer() {
+function Footer({ recipeCount = 0 }) {
   return (
-    <footer>
-      <p>Footer Links Here</p>
+    <footer className="app-footer">
+      <p>🍳 My Chef App — {recipeCount} recipe{recipeCount !== 1 ? 's' : ''} saved</p>
     </footer>
   );
 }

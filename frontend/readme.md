@@ -4,17 +4,20 @@
 ### Installation
 
 Navigate to the `frontend` directory:
+```bash
+cd frontend
+npm install
+```
 
-   `cd frontend`
+### Running
 
-   `npm install`
-  
-   Then start app using either one of these commands:
+```bash
+npm start           # Start frontend (port 3006)
+npm run start-all   # Start both backend and frontend
+npm run build       # Production build (requires NODE_OPTIONS=--openssl-legacy-provider)
+```
 
-   `npm start` - starts the app normally
-
-   `npm run start-legacy` - starts the app in legacy mode
- 
-   `npm run start-backend` - command to start the backend
-
-   `npm run start-all` - command to start backend and frontend
+### Dependencies
+- React 17
+- react-scripts 4.0.3
+- http-proxy-middleware 0.21.0

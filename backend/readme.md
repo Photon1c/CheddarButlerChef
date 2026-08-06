@@ -1,14 +1,18 @@
 
-## Backend `README.md`
+## Backend
 
 ### Installation
+```bash
+cd backend
+npm install
+```
 
-Navigate to the `backend` directory:
+### Running
+```bash
+node index.js  # Runs on port 3005
+```
 
-   `cd backend`
-
-   `npm install`
-
-   `npm start` - starts the app normally
-
-   `node index.js` - alternative command to start backend
+### Environment Variables
+Create a `.env` file with:
+- `OPENAI_API_KEY` - OpenAI API key
+- `BING_SUBSCRIPTION_KEY` - Bing Search API key (optional)
